@@ -101,7 +101,7 @@ defmodule Bureaucrat.Helpers do
     end
   end
 
-  def format_test_name("test " <> name), do: name
+  def format_test_name(name), do: name
 
   def group_title_for(_mod, []), do: nil
 
